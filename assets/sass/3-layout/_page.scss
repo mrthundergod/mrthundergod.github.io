@@ -1,0 +1,36 @@
+/* =====| Page |===== */
+
+.content-wrapper{
+	margin-top: 50px;
+}
+
+.headshot{
+	text-align: center;
+	overflow: hidden;
+	border-radius: 100%;
+	max-width: 400px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto 30px;
+	text-align: center;
+	@include respond-to('md-down'){
+		min-width: 300px
+	}
+}
+
+.info{
+	text-align: center;
+	margin-bottom: 30px;
+	color: #000;
+}
+
+.name{
+	font-weight: 800;
+}
+
+.social-buttons{
+	text-align: center;
+	.btn-theme{
+		margin-bottom: 30px;
+	}
+}

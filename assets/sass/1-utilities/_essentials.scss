@@ -1,0 +1,28 @@
+// Text Shadows
+$text-shadow-x : 0px 2px 2px rgba(150, 150, 150, 0.77);
+$text-shadow-xx : 6px 6px 0px rgba(0,0,0,0.2);
+
+// Box Shadows
+$box-shadow-x : 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$box-shadow-xx : 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+$box-shadow-xxx : 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+$box-shadow-xxxx : 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+$box-shadow-xxxxx : 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+$box-shadow-4x : 1px 0px 19px -1px rgba(0,0,0,0.75); 
+$box-shadow-2x : -11px 9px 16px -7px rgba(0,0,0,0.45);;
+
+// Bootstrap media queries
+$iphone : "only screen and (min-width : 320px)";
+$xs :  "only screen and (min-width : 480px)";
+$sm : "only screen and (min-width : 768px)";
+$md :  "only screen and (min-width : 992px)";
+$lg :  "only screen and (min-width : 1200px)";
+
+$iphone-up : "only screen and (max-width : 320px)";
+$xs-up  :  "only screen and (max-width : 480px)";
+$sm-up  : "only screen and (max-width : 768px)";
+$md-up  :  "only screen and (max-width : 992px)";
+$lg-up  :  "only screen and (max-width : 1200px)";
+
+
+
